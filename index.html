@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sábado Por Medio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body class="index">
+    <header>
+      <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo" title="Sábado Por Medio" /></a>
+
+      <nav>
+        <ul>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="extras.html">Extras</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="inicio">
+      <div class="primer_concierto">
+        <h1>Sábado Por Medio</h1>
+
+        <article class="art1">
+          <h3>Nuestro Primer Concierto!!!</h3>
+
+          <p>Te esperamos el próximo <strong>Sábado 6 de Octubre en Perú 571 a las 20:30 en "Buenos Ayres Club"</strong> ubicado en el barrio de Monserrat entre las calles Venezuela y Mexico, Capital Federal de Buenos Aires.</p>
+
+          <img src="img/banda.jpg" alt="Banda" title="Banda" />
+        </article>
+
+        <article class="art2">
+          <p><em>Compra tus entradas ya!!</em></p>
+
+          <img src="img/entradas.jpg" alt="Entradas" title="Entradas" />
+        </article>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <h2>¿Quienes Somos?</h2>
+
+      <p class="p">Conoce a cada uno de nuestros integrantes:</p>
+
+      <ul class="integrantes">
+        <li class="tito">
+            <div>
+              <div>
+                <h3>Humberto "Tito" Pontoriero</h3>
+                <p>En el bajo, en coro y en la voz.</p>
+              </div>
+              <img src="img/tito2.jpg" alt="Tito">
+            </div>
+        </li>
+
+        <li class="javier">
+            <div>
+              <div>
+                <h3>Javier Cortés</h3>
+                <p>En la guitarra, voz, coro y batería.</p>
+              </div>
+              <img src="img/javier2.jpg" alt="Javier">
+            </div>
+        </li>
+
+        <li class="andres">
+            <div>
+              <div>
+                <h3>Andrés Londoño</h3>
+                <p>En la guitarra, el Bajo y coro.</p>
+              </div>
+              <img src="img/andres2.jpg" alt="Andrés">
+            </div>
+        </li>
+
+        <li class="ariel">
+            <div>
+              <div>
+                <h3>Ariel "Cabezón" Verriola</h3>
+                <p>En la batería, guitarra, voz y coro.</p>
+              </div>
+              <img src="img/ariel2.jpg" alt="Ariel">
+            </div>
+        </li>
+
+        <li class="felipe">
+            <div>
+              <div>
+                <h3>Felipe Miguez</h3>
+                <p>Nuestro polifacetico percusionista, bajista y cantante.</p>
+              </div>
+              <img src="img/felipe2.jpg" alt="Felipe">
+            </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <article>
+        <h2>Contáctanos para eventos, o envíanos tus comentarios, preferencias o sugerencias rellenando el siguiente formulario:</h2>
+      </article>
+
+      <article class="form">
+        <form action="#">
+          <fieldset>
+            <legend>Contáctanos</legend>
+
+            <table>
+              <tr>
+                <td>
+                  <div class="nombre">
+                    <div>
+                      <label>Nombre:</label>
+                    </div>
+                    <input type="text" name="nombre" placeholder="Ingresa tu Nombre" required>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="apellido">
+                    <div>
+                      <label>Apellido:</label>
+                    </div>
+                    <input type="text" name="apellido" placeholder="Ingresa tu Apellido">
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="email">
+                    <div>
+                      <label>E-mail:</label>
+                    </div>
+                    <input type="email" name="email" placeholder="example@email.com" required>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="telefono">
+                    <div>
+                      <label>Teléfono:</label>
+                    </div>
+                    <input type="number" name="numero" placeholder="Ingresa tu Número" required>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2">
+                  <div class="mensaje">
+                    <div>
+                      <label>Mensaje:</label>
+                    </div>
+                    <textarea name="mensaje" rows="10" cols="50" placeholder="Escriba su Mensaje"></textarea>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="enviar">
+                    <input type="submit" value="Enviar">
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+          </fieldset>
+        </form>
+      </article>
+
+      <article class="correo">
+          <p>Ó envianos tus comentarios o sugerencias a nuestras redes sociales o correo electrónico:</p>
+
+          <p class="p"><a href="https://www.google.com/intl/es/gmail/about/#" target="_blank"><span><i class="far fa-envelope"></i></span></a> sabadopm@gmail.com</p>
+
+          <p><a href="https://www.facebook.com/Sabado-Por-Medio-2167317286886465/" target="_blank"><span><i class="fab fa-facebook-square"></i></span></a> Sabado Por Medio</p>
+
+          <p><a href="https://www.instagram.com/sabadoxmedio/?hl=es-la" target="_blank"><span><i class="fab fa-instagram"></i></span></a> sabadoxmedio</p>
+      </article>
+    </section>
+
+    <footer>
+      <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo" title="Sábado Por Medio" /></a>
+      
+      <ul class="menu">
+        <li><h1>Menú</h1></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="extras.html">Extras</a></li>
+        <li><a href="#contacto">Contacto</a></li>        
+      </ul>
+
+      <div class="rs">
+        <p>Redes Sociales:</p>
+        <ul class="icons">
+          <li><a href="https://www.facebook.com/Sabado-Por-Medio-2167317286886465/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="https://www.instagram.com/sabadoxmedio/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+
+      <p>Copyright © 2018 Sábado Por Medio - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

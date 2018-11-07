@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+header {
+  font-family: 'Noto Serif', serif;
+  font-size: 100%;
+  width: 100%;
+  background-color: #111111;
+  display: inline-block;
+  position: fixed;
+  z-index: 1;
+}
+
+header .logo {
+  float: left;
+  width: 10%;
+  padding: 1% 1% 0.5% 3%;
+}
+
+header nav {
+  margin-right: 2%;
+}
+
+header nav ul li a {
+  float: right;
+  margin: 1% 0% 1% 0%;
+  padding: 1.3% 2% 1.3% 2%;
+  font-size: 110%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.6s;
+}
+
+header nav ul li a:hover {
+ font-size: 130%;
+ background-color: gray;
+}
+
+header nav ul li a:active {
+  transition: 0s;
+ color: black;
+}
+
+/*----------------------------
+------Estilos del Index-------
+------------------------------*/
+
+.inicio {
+  background-image: url("../img/bateria3.jpg");
+  background-attachment: fixed;
+  color: black;
+  display: inline-block;
+  padding: 10% 4% 5% 4%;
+}
+
+.inicio div h1 {
+  margin: 5% 0% 0% 0%;
+  text-align: center;
+}
+
+.inicio .primer_concierto {
+  background-color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  padding: 0.5%;
+}
+
+.art1 {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 2% 1% 3% 5%;
+}
+
+.art1 h3, p {
+  padding: 2%;
+  text-align: center;
+}
+
+.art2 {
+  width: 40%;
+  margin: 2% 5% 3% 5%;
+  float: right;
+  display: inline-block;
+}
+
+.art2 p {
+  padding: 5%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+/*----------------------------
+------Estilos de Nosotros-----
+------------------------------*/
+
+#nosotros section {
+  padding: 8% 2% 2% 2%;
+  color: white;
+  clear: both;
+}
+
+#nosotros h2,
+#nosotros .p {
+  text-align: left;
+  font-size: 130%;
+  line-height: 110%;
+}
+
+.integrantes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tito,
+.javier,
+.andres,
+.ariel,
+.felipe {
+  margin: 2%;
+}
+
+.tito div div,
+.javier div div,
+.andres div div,
+.ariel div div,
+.felipe div div {
+  text-align: center;
+  font-size: 130%;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.felipe div div {
+  width: 400px;
+}
+
+.tito,
+.javier,
+.andres,
+.ariel,
+.felipe {
+  filter: grayscale(100%);
+  transition: all 0.6s;
+}
+
+.tito:hover,
+.javier:hover,
+.andres:hover,
+.ariel:hover,
+.felipe:hover {
+  filter: none;
+}
+
+/*----------------------------
+-----Estilos de Contactos-----
+------------------------------*/
+
+#contacto {
+  width: 100%;
+  background-image: url('../img/bateria3.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#contacto {
+  color: white;
+}
+
+#contacto article h2 {
+  font-size: 130%;
+  font-weight: bold;
+  margin: 2% 2% 0.5% 2%;
+  padding: 2% 2% 0.5% 2%;
+  text-align: center;
+}
+
+#contacto .form {
+  width: 45%;
+  float: left;
+  font-size: 130%;
+  padding: 2% 2% 2%;
+  margin: 1% 1% 2% 1%;
+  display: inline-block;
+}
+
+#contacto .form form {
+  padding: 2%;
+}
+
+#contacto .form form fieldset {
+  padding: 8% 14% 8%;
+  display: inline-block;
+}
+
+#contacto section article form fieldset table {
+  margin: 1%;
+  padding: 1%;
+}
+
+.nombre,
+.email {
+  float: left;
+  padding: 4%;
+}
+
+.apellido,
+.telefono {
+  float: right;
+  padding: 4%;
+}
+
+.mensaje,
+.enviar {
+  clear: both;
+}
+
+.correo {
+  width: 45%;
+  display: inline-block;
+  float: right;
+  margin: 8% 3% 5% 1%;
+  padding: 3% 2% 2% 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.correo p {
+  margin-top: 3%;
+  text-decoration: none;
+  text-align: left;
+  margin: 0% 0% 0% 0%;
+  padding: 0.6% 1% 0.6% 1%;
+  color: black;
+}
+
+.correo p a {
+  color: black;
+}
+
+.correo p a i {
+  padding: 1%;
+  border-radius: 20%;
+  transition: all 0.4s;
+}
+
+.correo p a i:hover {
+  background-color: #686868;
+}
+
+.correo p:first-child {
+  margin-bottom: 4%;
+}
+
+.correo span {
+  font-size: 120%;
+}
+
+/*----------------------------
+------Estilos de Extras------
+------------------------------*/
+
+section .gal {
+  padding: 8% 2% 2% 2%;
+  color: white;
+  text-align: center;
+  font-size: 220%;
+}
+
+.container {
+  width: 90%;
+  margin: 1% auto 5%;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(15, 5vh);
+  grid-gap: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.uno {
+  background-image: url("../img/andres2.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 1/6;
+}
+
+.dos {
+  background-image: url("../img/6.jpg");
+  background-size: cover;
+  grid-column: 3/6;
+  grid-row: 1/5;
+}
+
+.tres {
+  background-image: url("../img/12.jpg");
+  background-size: cover;
+  grid-column: 6/9;
+  grid-row: 1/6;
+}
+
+.cuatro {
+  background-image: url("../img/14.jpg");
+  background-size: cover;
+  background-position: center top;
+  grid-column: 9/12;
+  grid-row: 1/7;
+}
+
+.cinco {
+  background-image: url("../img/15.jpg");
+  background-size: cover;
+  background-position: center top;
+  grid-column: 3/6;
+  grid-row: 5/11;
+}
+
+.seis {
+  background-image: url("../img/16.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 6/16;
+}
+
+.siete {
+  background-image: url("../img/18.jpg");
+  background-size: cover;
+  grid-column: 6/9;
+  grid-row: 6/11;
+}
+
+.ocho {
+  background-image: url("../img/19.png");
+  background-size: cover;
+  background-position: left;
+  grid-column: 6/9;
+  grid-row: 11/16;
+}
+
+.nueve {
+  background-image: url("../img/5.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 3/6;
+  grid-row: 11/16;
+}
+
+.diez {
+  background-image: url("../img/16.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 6/16;
+}
+
+.once {
+  background-image: url("../img/17.jpg");
+  background-size: cover;
+  grid-column: 9/12;
+  grid-row: 7/12;
+}
+
+.doce {
+  background-image: url("../img/20.jpg");
+  background-size: cover;
+  background-position: center top;
+  grid-column: 9/12;
+  grid-row: 12/16;
+}
+
+/*----------------------------
+------Estilos del Footer------
+------------------------------*/
+
+footer {
+  width: 100%;
+  height: 40vh;
+  font-family: 'Noto Serif', serif;
+  background-color: rgba(180, 180, 180, 0.8);
+  clear: both;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40% 40% 20%;
+}
+
+footer a {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 2% 2% 0%;
+  padding: 2% 2% 0%;
+  width: 30%;
+}
+
+footer .rs {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin 2% 2% 2% 2%;
+  padding: 2% 2% 2% 2%;
+  display: inline-block;
+  width: 50%;
+}
+
+footer .rs p {
+  margin: 1% 0 0;
+  padding: 2%;
+  font-weight: bold;
+}
+
+footer .rs .icons {
+  margin: 1% 5%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+footer .rs .icons li {
+  font-size: 150%;
+  margin: 0 1% 0;
+}
+
+footer .rs .icons li a i {
+  border-radius: 30%;
+  padding: 15%;
+  color: #58595b;
+  transition: all 0.4s;
+}
+
+footer .rs .icons li:first-child a i,
+footer .rs .icons li:nth-child(2) a i {
+  padding: 15% 20%;
+}
+
+footer .rs .icons li:first-child a i:hover {
+  background-color: white;
+  color: #254187;
+}
+
+footer .rs .icons li:nth-child(2) a i:hover {
+  background-color: #bc185c;
+  color: white;
+}
+
+footer .rs .icons li:nth-child(3) a i:hover {
+  background-color: rgb(38, 149, 168);
+  color: white;
+}
+
+footer .rs .icons li:nth-child(4) a i:hover {
+  background-color: white;
+  color: red;
+}
+
+footer .menu {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  border-left: solid 2px white;
+  margin-top: 5%;
+}
+
+footer .menu li {
+  padding: 0.5%;
+  margin: 0.5;
+}
+
+footer .menu li:first-child {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+  font-size: 60%;
+}
+
+footer .menu li:nth-child(2) {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+footer .menu li:nth-child(3) {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+
+footer .menu li:nth-child(4) {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+footer .menu li:nth-child(5) {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+footer p {
+  grid-row: 3/4;
+  grid-column: 1/4;
+  text-align: left;
+  padding: 1% 1% 1%;
+  clear: both;
+}
